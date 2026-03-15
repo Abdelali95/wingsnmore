@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wings N More | Fresh Wings, Burgers, Seafood & More</title>
+  <meta
+    name="description"
+    content="Wings N More in Donaldsonville, LA. Fresh wings, burgers, seafood, gyros, salads, tenders and more. Dine in, pickup, and call orders available."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="header" id="top">
+      <nav class="navbar container">
+        <a href="#top" class="logo">
+          <span class="logo-mark">W</span>
+          <span class="logo-text">
+            <strong>Wings N More</strong>
+            <small>Donaldsonville, LA</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#featured">Featured</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Reviews</a>
+          <a href="#contact">Contact</a>
+          <a href="tel:+12254737393" class="nav-call">Call Now</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg"></div>
+        <div class="container hero-content reveal">
+          <span class="eyebrow">Fresh • Flavorful • Family Friendly</span>
+          <h1>Wings N More</h1>
+          <p>
+            Fresh Wings, Burgers, Seafood & More — served hot, made with care,
+            and loved by locals in Donaldsonville.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+            <a href="tel:+12254737393" class="btn btn-secondary">Call Now</a>
+          </div>
+
+          <div class="hero-highlights">
+            <div class="hero-badge">
+              <i class="fa-solid fa-drumstick-bite"></i>
+              <span>Signature Wings</span>
+            </div>
+            <div class="hero-badge">
+              <i class="fa-solid fa-burger"></i>
+              <span>Loaded Burgers</span>
+            </div>
+            <div class="hero-badge">
+              <i class="fa-solid fa-fish-fins"></i>
+              <span>Fresh Seafood</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section about" id="about">
+        <div class="container about-grid">
+          <div class="about-content reveal">
+            <span class="section-tag">About Us</span>
+            <h2>A local favorite for comfort food done right</h2>
+            <p>
+              At Wings N More, we serve up bold flavor, fresh ingredients, and a
+              menu packed with something for everyone. From crispy buffalo wings
+              and hearty burgers to seafood platters, gyros, tenders, salads,
+              and sandwiches, every order is made to satisfy.
+            </p>
+            <p>
+              Known as a dependable local favorite, we take pride in
+              family-friendly service, generous portions, and food that keeps
+              guests coming back. Whether you're grabbing lunch, dinner, or a
+              pickup order for the family, Wings N More delivers flavor you can
+              count on.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-card">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                <div>
+                  <h3>Fresh & Flavorful</h3>
+                  <p>Hot, satisfying meals made to order.</p>
+                </div>
+              </div>
+              <div class="feature-card">
+                <i class="fa-solid fa-people-group"></i>
+                <div>
+                  <h3>Family Friendly</h3>
+                  <p>Welcoming service for locals and visitors alike.</p>
+                </div>
+              </div>
+              <div class="feature-card">
+                <i class="fa-solid fa-utensils"></i>
+                <div>
+                  <h3>Menu Variety</h3>
+                  <p>Wings, burgers, seafood, salads, tenders, and more.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual reveal">
+            <div class="about-image image-card tall">
+              <img
+                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh restaurant food beautifully plated"
+              />
+            </div>
+            <div class="about-image image-card">
+              <img
+                src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80"
+                alt="Juicy burger with fries"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured -->
+      <section class="section featured" id="featured">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Featured Favorites</span>
+            <h2>Popular picks our guests love</h2>
+            <p>
+              A few crowd-pleasing favorites that showcase the bold, satisfying
+              flavors Wings N More is known for.
+            </p>
+          </div>
+
+          <div class="featured-grid">
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&w=900&q=80"
+                  alt="Buffalo wings"
+                />
+                <span class="card-badge">Popular</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Buffalo Wings</h3>
+                <p>
+                  Crispy, saucy, and packed with flavor in classic and bold
+                  signature sauces.
+                </p>
+                <div class="food-card-meta">
+                  <span>From $6.59</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"
+                  alt="Homemade burger"
+                />
+                <span class="card-badge">Signature</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Homemade Burger</h3>
+                <p>
+                  A hearty 1/2 lb burger served with fries and a drink for a
+                  full comfort-food meal.
+                </p>
+                <div class="food-card-meta">
+                  <span>$8.99</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?auto=format&fit=crop&w=900&q=80"
+                  alt="Seafood platter"
+                />
+                <span class="card-badge">Favorite</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Seafood Platters</h3>
+                <p>
+                  Crispy catfish, shrimp, or both — served hot with fries and a
+                  drink.
+                </p>
+                <div class="food-card-meta">
+                  <span>From $9.99</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=900&q=80"
+                  alt="Chicken tenders and fries"
+                />
+                <span class="card-badge">Hot Pick</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Boneless Tenders</h3>
+                <p>
+                  Tender, crispy chicken served with fries and drink — ideal for
+                  lunch or dinner.
+                </p>
+                <div class="food-card-meta">
+                  <span>From $8.59</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=900&q=80"
+                  alt="Gyro sandwich"
+                />
+                <span class="card-badge">Fresh</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Gyro Sandwich</h3>
+                <p>
+                  Warm, savory gyro dressed with Grecian sauce for a flavorful,
+                  satisfying bite.
+                </p>
+                <div class="food-card-meta">
+                  <span>$6.99</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="food-card reveal">
+              <div class="food-image">
+                <img
+                  src="https://images.unsplash.com/photo-1546793665-c74683f339c1?auto=format&fit=crop&w=900&q=80"
+                  alt="Fresh salad"
+                />
+                <span class="card-badge">Light Choice</span>
+              </div>
+              <div class="food-card-content">
+                <h3>Fresh Salads</h3>
+                <p>
+                  Crisp salads topped with grilled chicken, shrimp, or both with
+                  ranch or blue cheese.
+                </p>
+                <div class="food-card-meta">
+                  <span>From $9.99</span>
+                  <a href="#menu">See Menu</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Full Menu -->
+      <section class="section menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Restaurant Menu</span>
+            <h2>Fresh comfort food with bold flavor</h2>
+            <p>
+              Browse by category and explore burgers, wings, seafood, po’boys,
+              salads, tenders, and more.
+            </p>
+          </div>
+
+          <div class="menu-filters reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="burgers">Burgers</button>
+            <button class="filter-btn" data-filter="sandwiches">Sandwiches</button>
+            <button class="filter-btn" data-filter="poboys">PoBoys</button>
+            <button class="filter-btn" data-filter="gyros">Gyros</button>
+            <button class="filter-btn" data-filter="salads">Salads</button>
+            <button class="filter-btn" data-filter="wings">Wings</button>
+            <button class="filter-btn" data-filter="family-pack">Family Pack</button>
+            <button class="filter-btn" data-filter="tenders">Tenders</button>
+            <button class="filter-btn" data-filter="seafood">Seafood</button>
+            <button class="filter-btn" data-filter="sides">Sides</button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-panel reveal" data-category="burgers">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Homemade Burger</h3>
+                  <p>
+                    All burgers are 1/2 lb and come with lettuce, tomatoes,
+                    pickles and mayo. Served with fries and drink.
+                  </p>
+                </div>
+                <span class="panel-tag">Featured</span>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Hamburger</span><strong>$8.99</strong></div>
+                <div class="menu-item"><span>Double Burger 1 lb</span><strong>$11.99</strong></div>
+                <div class="menu-item"><span>Shrimp Burger</span><strong>$10.99</strong></div>
+                <div class="menu-item"><span>Chicken Burger</span><strong>$10.99</strong></div>
+                <div class="menu-item"><span>Chicken &amp; Shrimp Burger</span><strong>$11.99</strong></div>
+                <div class="menu-item"><span>Extra Cheese</span><strong>$0.35</strong></div>
+                <div class="menu-item"><span>Wing Sauce</span><strong>$0.50</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="sandwiches">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Bun Sandwich</h3>
+                  <p>
+                    All sandwiches are dressed with lettuce, tomatoes, pickles
+                    and mayo.
+                  </p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Fish</span><strong>$6.99 | Combo $8.99</strong></div>
+                <div class="menu-item"><span>Shrimp</span><strong>$7.59 | Combo $9.59</strong></div>
+                <div class="menu-item"><span>Grilled Chicken</span><strong>$7.59 | Combo $9.59</strong></div>
+                <div class="menu-item"><span>Philly Cheese Steak</span><strong>$7.59 | Combo $9.59</strong></div>
+                <div class="menu-item"><span>Grilled Chicken &amp; Shrimp</span><strong>$8.59 | Combo $10.59</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="poboys">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Fresh PoBoys</h3>
+                  <p>Freshly prepared and generously filled local favorites.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Hot Sausage Patty</span><strong>$7.99 | Combo $9.99</strong></div>
+                <div class="menu-item"><span>Hamburger Poboy</span><strong>$7.99 | Combo $9.99</strong></div>
+                <div class="menu-item"><span>Fish</span><strong>$8.59 | Combo $10.59</strong></div>
+                <div class="menu-item"><span>Shrimp</span><strong>$8.59 | Combo $10.59</strong></div>
+                <div class="menu-item"><span>Philly Cheese Steak</span><strong>$8.59 | Combo $10.59</strong></div>
+                <div class="menu-item"><span>Chicken Philly</span><strong>$8.59 | Combo $10.59</strong></div>
+                <div class="menu-item"><span>Grilled Chicken &amp; Shrimp</span><strong>$9.59 | Combo $11.59</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="gyros">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Gyros</h3>
+                  <p>All gyros are dressed with Grecian sauce.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Gyro Sandwich</span><strong>$6.99 | Combo $8.99</strong></div>
+                <div class="menu-item"><span>Gyro Salad</span><strong>$9.99</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="salads">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Fresh Salads</h3>
+                  <p>Choice of ranch or blue cheese.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Grilled Chicken Salad</span><strong>$9.99</strong></div>
+                <div class="menu-item"><span>Shrimp Salad</span><strong>$10.59</strong></div>
+                <div class="menu-item"><span>Chicken &amp; Shrimp Salad</span><strong>$11.99</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="wings">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Buffalo Wings</h3>
+                  <p>
+                    Flavors: Plain, Mild, Hot, BBQ, Honey BBQ, Spicy BBQ, Lemon
+                    Pepper, Garlic Parmesan, Mango Habanero, Sweet Red Chili.
+                  </p>
+                </div>
+                <span class="panel-tag">Best Seller</span>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>5 Pieces</span><strong>$6.59 | Combo $8.59</strong></div>
+                <div class="menu-item"><span>6 Pieces</span><strong>$7.29 | Combo $9.29</strong></div>
+                <div class="menu-item"><span>10 Pieces</span><strong>$9.99 | Combo $11.99</strong></div>
+                <div class="menu-item"><span>15 Pieces</span><strong>$15.49 | Combo $17.49</strong></div>
+                <div class="menu-item"><span>20 Pieces</span><strong>$19.99 | Combo $21.99</strong></div>
+                <div class="menu-item"><span>Extra Wing Sauce</span><strong>$0.50</strong></div>
+                <div class="menu-item"><span>Extra Ranch</span><strong>$0.35</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="family-pack">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Wings Family Pack</h3>
+                  <p>Perfect for sharing with family, friends, and game day groups.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>35 Pieces</span><strong>$37.99</strong></div>
+                <div class="menu-item"><span>50 Pieces</span><strong>$51.99</strong></div>
+                <div class="menu-item"><span>70 Pieces</span><strong>$74.99</strong></div>
+                <div class="menu-item"><span>100 Pieces</span><strong>$99.99</strong></div>
+                <div class="menu-item"><span>Extra Wing Sauce</span><strong>$1.00</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="tenders">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Boneless Tenders</h3>
+                  <p>Served with fries and drink.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>4 Pieces</span><strong>$8.59</strong></div>
+                <div class="menu-item"><span>6 Pieces</span><strong>$9.99</strong></div>
+                <div class="menu-item"><span>8 Pieces</span><strong>$13.59</strong></div>
+                <div class="menu-item"><span>Wing Sauce</span><strong>$1.00</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="seafood">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Seafood Platters</h3>
+                  <p>Served with fries and drink.</p>
+                </div>
+                <span class="panel-tag">Featured</span>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>Catfish</span><strong>$9.99</strong></div>
+                <div class="menu-item"><span>Shrimp</span><strong>$10.59</strong></div>
+                <div class="menu-item"><span>Catfish &amp; Shrimp</span><strong>$11.99</strong></div>
+              </div>
+            </article>
+
+            <article class="menu-panel reveal" data-category="sides">
+              <div class="menu-panel-header">
+                <div>
+                  <h3>Side Orders</h3>
+                  <p>Complete your meal with crispy, savory favorites.</p>
+                </div>
+              </div>
+              <div class="menu-items">
+                <div class="menu-item"><span>French Fries</span><strong>Small $2.99 | Large $3.99</strong></div>
+                <div class="menu-item"><span>Onion Rings (8)</span><strong>$4.99</strong></div>
+                <div class="menu-item"><span>Fried Okra</span><strong>$3.99</strong></div>
+                <div class="menu-item"><span>Jalapeno Poppers (5)</span><strong>$4.99</strong></div>
+                <div class="menu-item"><span>Cheese Sticks (6)</span><strong>$4.99</strong></div>
+                <div class="menu-item"><span>Fried Mushrooms (12)</span><strong>$4.99</strong></div>
+                <div class="menu-item"><span>Chicken Nuggets (10)</span><strong>$4.99 | $6.99</strong></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section gallery-section" id="gallery">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Gallery</span>
+            <h2>A taste of what’s waiting</h2>
+            <p>
+              Flavor-packed favorites, prepared fresh and served with comfort,
+              care, and bold local style.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=900&q=80"
+                alt="Chicken wings with dipping sauce"
+              />
+            </div>
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80"
+                alt="Fresh hot comfort food"
+              />
+            </div>
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"
+                alt="Salad with fresh ingredients"
+              />
+            </div>
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1559847844-d721426d6edc?auto=format&fit=crop&w=900&q=80"
+                alt="Burger and fries"
+              />
+            </div>
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=900&q=80"
+                alt="Seafood dish"
+              />
+            </div>
+            <div class="gallery-item reveal">
+              <img
+                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                alt="Assorted restaurant food"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="section-tag">Testimonials</span>
+            <h2>What customers are saying</h2>
+            <p>
+              Friendly service, fresh food, and dependable flavor keep our
+              customers coming back.
+            </p>
+          </div>
+
+          <div class="testimonial-grid">
+            <article class="testimonial-card reveal">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                “The wings were hot, fresh, and full of flavor. The fries were
+                crispy, and the service was quick and friendly. Definitely one
+                of my favorite local spots.”
+              </p>
+              <div class="reviewer">
+                <strong>Danielle R.</strong>
+                <span>Local Customer</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card reveal">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                “Great portions and a lot of menu choices. I ordered the burger
+                combo and my family tried the seafood platter and tenders. Everything
+                was fresh and satisfying.”
+              </p>
+              <div class="reviewer">
+                <strong>Marcus T.</strong>
+                <span>Repeat Guest</span>
+              </div>
+            </article>
+
+            <article class="testimonial-card reveal">
+              <div class="stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i>
+              </div>
+              <p>
+                “Wings N More is one of those places you can count on. Clean,
+                welcoming, and the food always tastes made to order. The shrimp
+                and wings are a must.”
+              </p>
+              <div class="reviewer">
+                <strong>Keisha L.</strong>
+                <span>Neighborhood Favorite</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact-section" id="contact">
+        <div class="container contact-grid">
+          <div class="contact-content reveal">
+            <span class="section-tag">Contact Us</span>
+            <h2>Call ahead for pickup or stop by today</h2>
+            <p>
+              We’re proud to serve Donaldsonville with fresh, flavorful comfort
+              food every day of the week.
+            </p>
+
+            <div class="contact-cards">
+              <div class="contact-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>515 Marchand Dr, Donaldsonville, LA 70346</p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p><a href="tel:+12254737393">(225) 473-7393</a></p>
+                </div>
+              </div>
+
+              <div class="contact-card">
+                <i class="fa-solid fa-clock"></i>
+                <div>
+                  <h3>Hours</h3>
+                  <p>Sunday - Saturday: 10 AM – 10 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="tel:+12254737393" class="btn btn-primary">Call for Pickup</a>
+              <a
+                href="https://www.google.com/maps/search/?api=1&query=515+Marchand+Dr,+Donaldsonville,+LA+70346"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-secondary"
+              >
+                Get Directions
+              </a>
+            </div>
+          </div>
+
+          <div class="map-wrap reveal">
+            <iframe
+              title="Map for Wings N More"
+              src="https://www.google.com/maps?q=515%20Marchand%20Dr%2C%20Donaldsonville%2C%20LA%2070346&z=15&output=embed"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-col">
+          <h3>Wings N More</h3>
+          <p>
+            Fresh wings, burgers, seafood, salads, sandwiches, tenders, and
+            more — served daily in Donaldsonville.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p>515 Marchand Dr<br />Donaldsonville, LA 70346</p>
+          <p><a href="tel:+12254737393">(225) 473-7393</a></p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul class="footer-hours">
+            <li><span>Sunday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Monday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Tuesday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Wednesday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Thursday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Friday</span><span>10 AM – 10 PM</span></li>
+            <li><span>Saturday</span><span>10 AM – 10 PM</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Wings N More. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
